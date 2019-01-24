@@ -1,0 +1,30 @@
+#projects {
+  background: linear-gradient(rgba(0,0,0,.5), rgba(112,112,122,.8)), url("../images/background.jpg");
+
+  .container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    .card {
+      border: 1px solid $main-color;
+
+      .card-body {
+        color: $main-color;
+      }
+    }
+
+    .card-header {
+      background: transparent;
+
+      .btn-link {
+        color: $main-color;
+        text-transform: uppercase;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
